@@ -36,7 +36,6 @@ body {
 
 .banner-content p {
   margin: 0;
-
   font-size: 1.5rem;
   font-style: italic;
 }
@@ -48,4 +47,18 @@ body {
   top: 0;
   width: 30px;
   background: url("../images/star.svg") no-repeat center center / contain transparent;
+  animation: starbright 3s infinite;
+}
+
+@keyframes starbright {
+
+  0% {
+    height: 40px;
+    width: 40px;
+  }
+
+  100% {
+    height: 40px;
+    width: 40px;
+  }
 }
