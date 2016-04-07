@@ -47,7 +47,8 @@ body {
   top: 0;
   width: 30px;
   background: url("../images/star.svg") no-repeat center center / contain transparent;
-  animation: starbright 3s infinite;
+  animation: starbright 3s infinite alternate;
+  transform-origin: bottom;
 }
 
 @keyframes starbright {
