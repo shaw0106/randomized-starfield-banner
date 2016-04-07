@@ -8,7 +8,7 @@ for (i = 0; i < 75; i++) {
   $star.addClass('star');
   $body.append($star);
   $star.css({
-    opacity: Math.random(),
+    opacity: Math.random() * 10,
     top: Math.random() * bannerHeight,
     left: Math.random() * bannerWidth,
     transform: 'rotate(' + Math.random() * 360 + 'deg) scale(' + Math.random() + ')'
